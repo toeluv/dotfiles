@@ -1,0 +1,1 @@
+/home/ini/.jetbrains.vmoptions.sh

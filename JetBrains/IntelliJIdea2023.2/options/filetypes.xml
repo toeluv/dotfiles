@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="usr" type="PLAIN_TEXT" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="fxml" approved="true" type="XML" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="plantuml" type="PlantUML file" />
+    </extensionMap>
+  </component>
+</application>

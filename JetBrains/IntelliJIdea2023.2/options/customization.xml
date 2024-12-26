@@ -1,0 +1,63 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="chart-demo" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="WelcomeScreen.Plugins" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ink.organics.pojo2json.EditorPopupMenuAction" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Kubernetes.CreateResource" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Kubernetes.HelmCreateChart" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="HTTPClient.AddRequest" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Jdbc.OpenConsole.New.Generate" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="Docker.RemoteServers.CreateContainer" icon="Docker.Services.Add" />
+    <action id="HTTPClient.AddRequest" icon="HTTP.Request.NewFile" />
+    <action id="Kafka.GlobalCreateKafkaConnection" icon="ActivateKafkaToolWindowToolWindow" />
+    <action id="Terminal.NewTab" icon="Terminal.OpenInTerminal" />
+    <action id="WelcomeScreen.Plugins" icon="FileChooser.GoToRoot" />
+    <action id="chart-demo" icon="DatabaseView.AddDataSourceFromUrl" />
+    <action id="Diagram.ExportToFileGroup.Plantuml" icon="BiggerIconsAction" />
+    <action id="MainToolbarGeneralActionsGroup" icon="HTTP.Request.NewFile" />
+    <action id="Docker.AddDockerConnection" icon="Docker.Services.Add" />
+    <action id="Kubernetes.AddServiceActions" icon="jar:file:/Applications/IntelliJ%20IDEA.app/Contents/lib/app-client.jar!/expui/toolbar/unknown.svg" />
+  </component>
+</application>

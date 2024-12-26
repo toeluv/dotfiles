@@ -1,0 +1,32 @@
+<templateSet group="Kotlin">
+  <template name="get_logger" value="private val logger = LoggerFactory.getLogger(javaClass)" description="Create a new instance of logger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="get_assertions" value="import org.assertj.core.api.Assertions.*&#10;" description="Import static assertions library" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="uuid_random" value="UUID.randomUUID()" description="Generate random UUID" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="uuid_val" value="private val $NAME$ = UUID.randomUUID()" description="Generate random UUID as val" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="get_jackson" value="private val objectMapper = jacksonObjectMapper()&#10;" description="Create a new instance of Jackson" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

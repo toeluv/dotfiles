@@ -1,0 +1,21 @@
+{
+   "action": {
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Ask anything while you browse",
+   "host_permissions": [ "https://www.perplexity.ai/", "wss://www.perplexity.ai/" ],
+   "icons": {
+      "128": "icon-new-128.png",
+      "48": "icon-new-48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhhWIWtJIbtNYeA2h2RwNSRaG88XXVbzpjKiXfmMHkHhlz72Qeo5lvkfX26pGRi/iR4ue/ZMYDp/hODwd9uTr1elWQHwFYP+oCylLBwALaCYu/ssKRuQAF18/m7LBO42NJzdOaG+NRDT+DcthykWuQdIJxhOyarmxMvHsIvCqQlcCIP7Kk6PGIBvEVE0gp2ZlaWp6DpEpdm61bbUnPuKXd1Rgb+XNih5THy6MVCqSpUtOMEvOeGat1PcDhu87RfbfnS1wAKcUQHeHpAt+X5vs9qbqBekkRychaFEp0agX2Gwxq3QRhnLIyIy5gnssN9EKqvTCIrsjhQUTVF1iyQQULQIDAQAB",
+   "manifest_version": 3,
+   "name": "Perplexity - AI Companion",
+   "permissions": [ "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.21"
+}

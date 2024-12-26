@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'FKGrotesk';
+  font-style: normal;
+  src: url('../fonts/FKGrotesk.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FKGroteskNeue';
+  font-style: normal;
+  src: url('../fonts/FKGroteskNeue.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'BerkeleyMono';
+  font-style: normal;
+  src: url('../fonts/BerkeleyMono-Regular.woff2') format('woff2');
+}

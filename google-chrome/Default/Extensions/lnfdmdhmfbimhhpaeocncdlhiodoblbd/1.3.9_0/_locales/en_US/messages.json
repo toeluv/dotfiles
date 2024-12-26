@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Access all websites smoothly on Chrome browser with faster VPN Proxy Master."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "VPN Proxy Master: Change IP for Chrome"
+   }
+}

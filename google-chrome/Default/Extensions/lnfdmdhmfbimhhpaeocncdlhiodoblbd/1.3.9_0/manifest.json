@@ -1,0 +1,25 @@
+{
+   "action": {
+      "default_popup": "popup/popup.html",
+      "default_title": "VPN PROXY MASTER"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "default-src 'self' https://download.vpnproxymaster.com http://www.geoplugin.net https://www.google-analytics.com https://www.googletagmanager.com https://301.flashpull.com http://301.fastwalk.net https://www.google.com/ http://www.google-analytics.com https://*.googleapis.com https://*.doubleclick.net https://vpnproxymaster.com; script-src 'self'; script-src-elem 'self' https://www.google-analytics.com; object-src 'self';"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "https://vpnproxymaster.com/*", "https://www.google.com/*", "https://301.flashpull.com/*", "http://301.fastwalk.net/*", "*://*/*" ],
+   "icons": {
+      "128": "icons/icon@2x.png",
+      "48": "icons/icon@2x.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncKEB4Nfe/6pHEks/6UoXKFndLF0rvsIAgLJo1QjivYq41EaThXRJQrLjNgIGGG7VF5ck5++DV4Loiw4C0dwse+VeHz6HGFgVuB21bgb78IUVkZJ4rj5+/CtrjDr0gDvTO2zmvz/1kVbRbdDiVB8ncWBgpDDkxWFyyzlIKFpFsvd5llUOrIL5YrjvT8/M7ak5WsNsMPEb1XpX70NX8/jVo5epHb9NEiQBd7t4za0Mw+RGhV5b6FZ73pFkdJQgjS8NGWEKOOnYz3NUl2WDxTI/JhzlAD5uwt+QRj9AjSh+pG/lIo43KEGleFARtIL2krbwo0EeiV3ne7wj8JXeCWfYwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "proxy", "unlimitedStorage", "notifications", "storage", "webRequest", "webRequestAuthProvider" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.9"
+}

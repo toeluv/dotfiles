@@ -1,0 +1,6 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="/Applications/kitty.app/Contents/MacOS/kitty" />
+    <option name="myTabName" value="kitty" />
+  </component>
+</application>

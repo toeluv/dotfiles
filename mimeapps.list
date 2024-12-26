@@ -1,0 +1,4 @@
+[Added Associations]
+text/plain=org.x.editor.desktop;nvim.desktop;kitty.desktop;
+application/x-shellscript=nvim.desktop;kitty.desktop;
+text/x-lua=nvim.desktop;
