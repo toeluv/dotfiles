@@ -80,9 +80,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
 git
 docker
-you-should-use
+#you-should-use
 zsh-autosuggestions
-zsh-syntax-highlighting
+#zsh-syntax-highlighting
 zsh-interactive-cd
 )
 
@@ -122,3 +122,7 @@ source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
 export XMODIFIERS="@im=none"
 
+source /home/ini/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+#alias xcopy = "xclip -selection clipboard"
+#alias xpaste = "xclip -selection clipboard -o"
