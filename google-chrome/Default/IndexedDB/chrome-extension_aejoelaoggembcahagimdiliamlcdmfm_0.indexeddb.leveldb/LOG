@@ -1,6 +1,0 @@
-2024/12/26-23:45:05.960 61e Creating DB /home/ini/.config/google-chrome/Default/IndexedDB/chrome-extension_aejoelaoggembcahagimdiliamlcdmfm_0.indexeddb.leveldb since it was missing.
-2024/12/26-23:45:05.971 61e Reusing MANIFEST /home/ini/.config/google-chrome/Default/IndexedDB/chrome-extension_aejoelaoggembcahagimdiliamlcdmfm_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/26-23:45:12.351 61f Level-0 table #5: started
-2024/12/26-23:45:12.353 61f Level-0 table #5: 7858 bytes OK
-2024/12/26-23:45:12.356 61f Delete type=0 #3
-2024/12/26-23:45:12.356 61f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

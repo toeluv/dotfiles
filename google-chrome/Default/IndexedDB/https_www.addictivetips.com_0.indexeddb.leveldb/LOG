@@ -1,6 +1,0 @@
-2024/12/25-10:18:12.947 d50 Creating DB /home/ini/.config/google-chrome/Default/IndexedDB/https_www.addictivetips.com_0.indexeddb.leveldb since it was missing.
-2024/12/25-10:18:12.954 d50 Reusing MANIFEST /home/ini/.config/google-chrome/Default/IndexedDB/https_www.addictivetips.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/25-16:46:43.009 d52 Level-0 table #5: started
-2024/12/25-16:46:43.011 d52 Level-0 table #5: 1760 bytes OK
-2024/12/25-16:46:43.014 d52 Delete type=0 #3
-2024/12/25-16:46:43.015 d50 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
